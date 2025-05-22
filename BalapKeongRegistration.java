@@ -1,3 +1,15 @@
+ /* 
+ * Program ini bertujuan untuk mensimulasikan proses pendaftaran kompetisi Balap Keong 
+ * dengan syarat bahwa peserta harus berusia minimal 17 tahun. Pertama, program meminta 
+ * input nama dan usia pengguna. Kemudian, menggunakan method validateAge, program memeriksa 
+ * apakah usia peserta sudah memenuhi syarat. Jika tidak, maka akan dilempar exception kustom 
+ * UnderageException menggunakan kata kunci throw, dan ditangani dalam blok try-catch. Hal ini 
+ * menunjukkan penerapan exception handling yang baik untuk memisahkan logika validasi dan 
+ * penanganan kesalahan, serta meningkatkan keterbacaan dan keamanan kode.
+ * 
+ * UnderageException: custom exception turunan dari Exception, digunakan untuk memvalidasi input logika program (checked exception).
+*/
+
 import java.util.Scanner; // mengimpor kelas Scanner untuk input dari pengguna
 
 class UnderageException extends Exception { // membuat kelas exception kustom bernama UnderageException
