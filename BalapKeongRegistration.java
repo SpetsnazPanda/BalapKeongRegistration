@@ -19,7 +19,7 @@ public class BalapKeongRegistration { // kelas utama program
     public static void main(String[] args) { // method utama program
         Scanner scanner = new Scanner(System.in); // membuat objek Scanner untuk membaca input pengguna
 
-        System.out.println("=== Pendaftaran Kompetisi eSports ==="); // menampilkan judul program
+        System.out.println("=== Pendaftaran Kompetisi Balap Keong ==="); // menampilkan judul program
         System.out.print("Masukkan nama Anda: "); // meminta input nama pengguna
         String name = scanner.nextLine(); // membaca nama
 
